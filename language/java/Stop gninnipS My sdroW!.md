@@ -54,7 +54,7 @@ public String split(String regex, int limit)
 
 ### **Java에서 문자열 붙이기**
 
-- +
+- 플러스(+)
 
     String a = "첫번째 강아지는 콩쥐입니다.";
 
