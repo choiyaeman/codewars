@@ -143,5 +143,4 @@ public class Validator {
     ex) Integer.parseInt("2020", 16);
 
 참고)
-
-[RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
+https://regexr.com/
