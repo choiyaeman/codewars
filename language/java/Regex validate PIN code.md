@@ -6,6 +6,7 @@ ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything 
 
 If the function is passed a valid PIN string, return `true`, else return `false`.
 
+
 solution_1
 
 ```java
