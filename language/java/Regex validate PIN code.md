@@ -6,6 +6,7 @@ ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything 
 
 If the function is passed a valid PIN string, return `true`, else return `false`.
 
+
 solution_1
 
 ```java
@@ -38,7 +39,10 @@ public class Solution {
     // Your code here...
     boolean result = false;
     if(pin.length()==4 || pin.length()==6){
-      if(pin.matches("^[0-9]*$")){
+      if(pin.matches("^[0-9]*$")){ // ^ 으로 우선 패턴의 시작을 알림. 
+      				   // [0-9] 괄호사이에 두 숫자를 넣어 범위를 지정해줄 수 있음. 
+				   // *를 넣으면 글자 수를 상관하지 않고 검사함. 
+				   // $ 으로 패턴의 종료를 알림.
         result = true;
       }
 
@@ -50,11 +54,6 @@ public class Solution {
 
 }
 ```
-
-^ 으로 우선 패턴의 시작을 알림.
-[0-9] 괄호사이에 두 숫자를 넣어 범위를 지정해줄 수 있음.
-*를 넣으면 글자 수를 상관하지 않고 검사함.
-$ 으로 패턴의 종료를 알림.
 
 ```java
 import org.junit.Test;
@@ -143,5 +142,4 @@ public class Validator {
     ex) Integer.parseInt("2020", 16);
 
 참고)
-
-[RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
+https://regexr.com/
