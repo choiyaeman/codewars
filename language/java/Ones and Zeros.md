@@ -45,37 +45,37 @@ public class BinaryArrayToNumber {
 
 binary.size()의 길이가 4라고 가정하고 Arrays.asList(1,1,1,1)이라 할 때
 
-index  total            currentValue
+index     total              currentValue
 
-3          1                      1x2
+3          1                   1x2
 
-2         1+2                   2x2
+2         1+2                  2x2
 
-1         1+2+4              2x2x2
+1         1+2+4                2x2x2
 
-0         1+2+4+8(15)   2x2x2x2
+0         1+2+4+8(15)          2x2x2x2
 
 binary.size()의 길이가 4라고 가정하고 Arrays.asList(1,0,0,1)이라 할 때
 
-index  total            currentValue
+index     total               currentValue
 
-3          1                      1x2
+3          1                    1x2
 
-2          0                      2x2
+2          0                    2x2
 
-1          0                      2x2x2
+1          0                    2x2x2
 
-0         1+2x2x2(9)       2x2x2x2
+0         1+2x2x2(9)            2x2x2x2
 
 binary.size()의 길이가 4라고 가정하고 Arrays.asList(0,1,1,0)이라 할 때
 
-index  total            currentValue
+index     total                currentValue
 
-3          0                      1x2
+3          0                     1x2
 
-2          2                      2x2
+2          2                     2x2
 
-1          2+4(6)             2x2x2
+1          2+4(6)                2x2x2
 
 0          0                     2x2x2x2
 
@@ -100,9 +100,9 @@ binary.size()길이가 2라고 가정하고 Arrays.asList(1,1)일 경우
 
 i         total
 
-0      0+2^1  → 2^1 : 2^(2-0-1)
+0         0+2^1  → 2^1 : 2^(2-0-1)
 
-1      2+2^0 
+1         2+2^0 
 
 ```java
 import java.util.ArrayList;
