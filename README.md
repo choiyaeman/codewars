@@ -7,6 +7,6 @@
 
 |    Programming Language  |    Kata Count  |
 |----------|:-------------:|
-| [JAVA](https://github.com/choiyaeman/codewars/tree/main/language/java) |6|
+| [JAVA](https://github.com/choiyaeman/codewars/tree/main/language/java) |7|
 
 My Codewars profile: https://www.codewars.com/users/choiyaeman
